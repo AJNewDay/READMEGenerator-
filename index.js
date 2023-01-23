@@ -16,7 +16,7 @@ const generateMarkdown = require("./generateMarkdown");
 const questions = [
   {
     type: "input",
-    name: "first",
+    name: "title",
     message: "What is the title of the Project?",
   },
   {
@@ -51,8 +51,22 @@ const questions = [
 // });
 
 function writeToFile(README, answers) {
+  fs.writeFile(README, answers, (err) => {
+    if (err) {
+      return console.log(err);
+    }
+  });
   // we write our code to WRITE NEW DATA to the FILE SYSTEM (fs)
 }
+
+// appendFile() takes in 3 arguments: path, data, and callback function
+// fs.appendFile("log.txt", `${process.argv[2]}\n`, (err) =>
+// Ternary operator takes in a condition followed by a question mark (?)
+// then an expression to execute if the condition is truthy followed by a colon (:)
+// and finally the expression to execute if the condition is falsy.
+// This operator is frequently used as a shortcut for the if statement.
+//   err ? console.error(err) : console.log("Commit logged!")
+// );
 
 // TODO: Create a function to initialize app
 function init() {
@@ -67,6 +81,7 @@ function init() {
       console.log(answers.third);
       console.log(answers.fourth);
       console.log(answers.fifth);
+      writeToFile("README.md", generateMarkdown(answers));
 
       // IF we need data from the prompt method continue our code inside of this functions scope
       // we can declare global variable and then update the value

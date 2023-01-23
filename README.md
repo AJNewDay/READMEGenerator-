@@ -1,3 +1,8 @@
-# Professional README Generator Starter Code
+# ReadMe Generator
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+  For the generation of professional ReadMe's
+  npm install
+  don't worry bout that
+  nah
+  
+
