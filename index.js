@@ -21,23 +21,29 @@ const questions = [
   },
   {
     type: "input",
-    name: "second",
+    name: "usage",
     message: "What is the app used for?",
   },
   {
     type: "input",
-    name: "third",
+    name: "installation",
     message: "How is this app installed?",
   },
   {
     type: "input",
-    name: "fourth",
+    name: "issues",
     message: "How can issues be reported?",
   },
   {
     type: "input",
-    name: "fifth",
+    name: "contributions",
     message: "How can contributions be made?",
+  },
+  {
+    type: "checkbox",
+    name: "license",
+    message: "select license",
+    choices: ["MIT", "Apache", "GPL", "BSD"],
   },
 ];
 
@@ -76,11 +82,12 @@ function init() {
     .prompt(questions)
     .then((answers) => {
       console.log(answers);
-      console.log(answers.first);
-      console.log(answers.second);
-      console.log(answers.third);
-      console.log(answers.fourth);
-      console.log(answers.fifth);
+      console.log(answers.title);
+      console.log(answers.usage);
+      console.log(answers.installation);
+      console.log(answers.issues);
+      console.log(answers.contributions);
+      console.log(answers.license);
       writeToFile("README.md", generateMarkdown(answers));
 
       // IF we need data from the prompt method continue our code inside of this functions scope
