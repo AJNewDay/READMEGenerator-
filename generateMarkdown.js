@@ -14,7 +14,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(answers) {
   return `# ${answers.title}
   ## License:
-  [![license](https://img.shields.io/badge/license-${answers.license}-blue.svg)]
+  ![license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
+
 
   ## Table of Contents
   - [Usage](#usage)
@@ -22,13 +23,17 @@ function generateMarkdown(answers) {
   - [Issues](#issues)
   - [Contributions](#contributions)
   - [License](#license)
-  ${answers.usage}
-  ${answers.installation}
-  ${answers.issues}
-  ${answers.contributions}
-  ${answers.license}
-
-
+ 
+## Usage
+${answers.usage}
+## Installation
+${answers.installation}
+## Issues
+${answers.issues}
+## Contributions
+${answers.contributions}
+## License
+${answers.license}
 `;
 }
 

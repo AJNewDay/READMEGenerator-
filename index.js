@@ -40,7 +40,7 @@ const questions = [
     message: "How can contributions be made?",
   },
   {
-    type: "checkbox",
+    type: "list",
     name: "license",
     message: "select license",
     choices: ["MIT", "Apache", "GPL", "BSD"],
