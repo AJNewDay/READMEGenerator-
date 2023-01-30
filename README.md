@@ -1,22 +1,37 @@
-# This
-  ## License:
-  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
+# The thing
 
+## License:
 
-  ## Table of Contents
-  - [Usage](#usage)
-  - [Installation](#installation)
-  - [Issues](#issues)
-  - [Contributions](#contributions)
-  - [License](#license)
- 
+![license](https://img.shields.io/badge/license-GPL-blue.svg)
+
+## Table of Contents
+
+- [Usage](#usage)
+- [Installation](#installation)
+- [Issues](#issues)
+- [Contributions](#contributions)
+- [License](#license)
+
 ## Usage
-That
+
+yeahs
+
 ## Installation
-The thing
+
+npm
+
 ## Issues
-yep
+
+no
+
 ## Contributions
-nah
+
+do them
+
 ## License
-MIT
+
+GPL
+
+// You can find my video demo by following this link
+
+chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/0ef9f688-914a-4dff-y4a9-fc7cf2b174e8
