@@ -1,37 +1,28 @@
-# The thing
+# README generator
+  ## License:
+  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## License:
 
-![license](https://img.shields.io/badge/license-GPL-blue.svg)
-
-## Table of Contents
-
-- [Usage](#usage)
-- [Installation](#installation)
-- [Issues](#issues)
-- [Contributions](#contributions)
-- [License](#license)
-
+  ## Table of Contents
+  - [Usage](#usage)
+  - [Installation](#installation)
+  - [Issues](#issues)
+  - [Contributions](#contributions)
+  - [License](#license)
+  - [Email](#email)
+  - [GitHub](#GitHub)
+ 
 ## Usage
-
-yeahs
-
+generating README's
 ## Installation
-
 npm
-
 ## Issues
-
-no
-
+by email
 ## Contributions
-
-do them
-
+through github
 ## License
-
-GPL
-
-// You can find my video demo by following this link
-
-chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/0ef9f688-914a-4dff-y4a9-fc7cf2b174e8
+MIT
+## Email
+@@@
+## GitHub
+aj

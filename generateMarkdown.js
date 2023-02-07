@@ -23,6 +23,8 @@ function generateMarkdown(answers) {
   - [Issues](#issues)
   - [Contributions](#contributions)
   - [License](#license)
+  - [Email](#email)
+  - [GitHub](#GitHub)
  
 ## Usage
 ${answers.usage}
@@ -34,6 +36,10 @@ ${answers.issues}
 ${answers.contributions}
 ## License
 ${answers.license}
+## Email
+${answers.email}
+## GitHub
+${answers.GitHub}
 `;
 }
 
